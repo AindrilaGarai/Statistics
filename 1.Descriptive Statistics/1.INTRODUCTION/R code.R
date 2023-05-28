@@ -132,5 +132,5 @@ Freqden <- function(freq)
 freqden <- Freqden(freq)
 
 
-freq_table <- data.frame(c(class_limit, class_boundary, freq, cumulative_in, cumulative_de, rel_freq, freqden))
+freq_table <- data.frame(c(class_limit, class_boundary, freq, cum_in, cum_de, rel_freq, freqden))
 freq_table # final output
